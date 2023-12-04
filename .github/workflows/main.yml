@@ -14,6 +14,6 @@
       steps:
         - uses: action/checkout@v3
 
-        - name: "Login to Docker hub"
+        - name: "Login to Docker"
           run: docker login --username khaled8 --password dckr_pat_Bcdf7oMG9ZCCZhy60VGdEVb-snY
            
