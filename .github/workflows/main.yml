@@ -15,5 +15,5 @@
         - uses: action/checkout@v3
 
         - name: "Login to Docker"
-          run: docker login --username khaled8 --password dckr_pat_Fcr3JjjiYPKwxth_i33Q_T_-IN4
+          run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_TOKEN }}
            
